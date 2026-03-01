@@ -1,0 +1,34 @@
+[
+  {
+    "id": "e4b8a9d1-3c5f-4a2b-9e8d-7f6c5b4a3d2e",
+    "url": "https://cdn.jsdelivr.net/gh/memizy/set-historie-pikantnosti@main/data.oqse.json",
+    "title": "Zábavná a pikantní česká historie",
+    "description": "Zábavné otázky a fakta z české historie. Věci, co lidé často neví a jsou nějak vtipné či pikantní.",
+    "author": "Memizy Community",
+    "subject": "Historie",
+    "language": "cs",
+    "tags": ["historie", "česko", "zajímavosti", "fakta", "zábava"],
+    "createdAt": "2026-03-01T12:00:00Z",
+    "updatedAt": "2026-03-01T12:00:00Z",
+    "estimatedTime": 20,
+    "requirements": {
+      "features": ["markdown"]
+    }
+  },
+  {
+    "id": "44a2c6d7-aca4-426a-b2f3-cf0d05901b33",
+    "url": "https://cdn.jsdelivr.net/gh/memizy/set-mff-uvod-do-ai@main/data.oqse.json",
+    "title": "Úvod do umělé inteligence (MFF - NAIL120)",
+    "description": "Komplexní sada otázek a poznámek z přednášky Úvod do umělé inteligence (NAIL120) na MFF UK, pokrývající klíčové koncepty, algoritmy a techniky v oblasti AI.",
+    "author": "Nákladní sbor FFS MFF",
+    "subject": "Umělá inteligence",
+    "language": "cs",
+    "tags": ["AI", "NAIL120", "Inteligentní agenti", "Hledání", "CSP", "Logika"],
+    "createdAt": "2026-03-01T11:19:09.355Z",
+    "updatedAt": "2026-03-01T11:19:09.355Z",
+    "estimatedTime": 215,
+    "requirements": {
+      "features": ["markdown", "math"]
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "019c9536-b3cb-7cc4-b965-1fd79be59db7",
+    "url": "https://cdn.jsdelivr.net/gh/memizy/set-anatomie-3d@main/data.oqse.json",
+    "title": "3D Anatomie",
+    "description": "Interaktivní studijní sada pro Memizy Ecosystem, která využívá reálné 3D modely k výuce anatomie lidského těla. Místo textových odpovědí musíte struktury najít a kliknout na ně přímo na prostorovém modelu.",
+    "author": "AnatomyTool.org",
+    "subject": "Anatomie",
+    "language": "cs",
+    "tags": ["anatomie", "lebka", "craniologie", "medicína", "3d"],
+    "createdAt": "2026-02-25T00:00:00Z",
+    "updatedAt": "2026-02-25T00:00:00Z",
+    "estimatedTime": 120,
+    "requirements": {
+      "features": ["markdown", "pin-on-model", "3d-models"]
+    }
+  }
+]
