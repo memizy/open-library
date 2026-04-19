@@ -46,25 +46,32 @@ Creating and sharing a set is completely free and requires no central approval, 
 
 ### Step 2: Submit to the Library
 1. Fork this `open-library` repository.
-2. Edit the **`community.json`** file and append a new object containing a projection of your set's metadata. 
+2. Edit the **`community.json`** file and append a new object representing your set's metadata. 
 3. Open a **Pull Request**.
 
 *(Note: If your community set gains popularity and maintains high quality, the Memizy team may eventually promote it to the `verified.json` tier!)*
 
 ---
 
-## 🛠️ Data Structure
+## 🛠️ Data Structure (OQSEH)
 
-Whether it is in the Official, Verified, or Community registry, the library expects a lightweight projection of the OQSE `meta` object. This allows the Memizy app to filter sets without downloading them.
+Whether it is in the Official, Verified, or Community registry, the library uses the **OQSEH (Open Quiz & Study Exchange Header)** standard. 
+
+This is a lightweight projection of the full OQSE `meta` object combined with a direct CDN URL. This standard allows the Memizy app to quickly load library cards, search, and filter sets without having to download the heavy content first.
+
+> **💡 Tip for GitHub Links:** When setting the `url` field for a set hosted on GitHub, we highly recommend using the **jsDelivr CDN** (e.g., `https://cdn.jsdelivr.net/gh/user/repo@main/...`) rather than standard raw GitHub links. This ensures fast, reliable, and production-ready global delivery.
 
 ```json
 {
-  "id": "Unique UUID matching your OQSE meta.id",
-  "url": "Direct CDN link to the raw .oqse.json file",
+  "$schema": "https://cdn.jsdelivr.net/gh/memizy/oqse-specification@main/schemas/oqse-header-v0.1.json",
+  "id": "123e4567-e89b-12d3-a456-426614174000",
+  "url": "https://cdn.jsdelivr.net/gh/your-username/your-repo@main/data.oqse.json",
   "title": "Name of your course",
-  "description": "Short description for the library card",
-  "author": "Your Name (extracted from PersonObject)",
-  "subject": "e.g., Medicine, Law, Computer Science",
+  "description": "Short description for the library card.",
+  "author": {
+    "name": "Your Name"
+  },
+  "subject": "Computer Science",
   "language": "en",
   "tags": ["keywords", "for", "search"],
   "updatedAt": "2024-01-15T08:30:00Z",
@@ -73,11 +80,3 @@ Whether it is in the Official, Verified, or Community registry, the library expe
     "features": ["math", "markdown"]
   }
 }
-
-```
-
-*Note: The `requirements` object is crucial. It helps host applications verify compatibility before attempting to download the full study set.*
-
-<div align="center">
-<i>Maintained with ❤️ by the Memizy Team.</i>
-</div>
