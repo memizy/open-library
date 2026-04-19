@@ -1,10 +1,13 @@
 [
   {
+    "$schema": "https://cdn.jsdelivr.net/gh/memizy/oqse-specification@main/schemas/oqse-header-v0.1.json",
     "id": "019c940f-c64e-7696-a110-8c14233325b4",
     "url": "https://cdn.jsdelivr.net/gh/memizy/set-1lf-farmakologie@main/data.oqse.json",
     "title": "Farmakologie 1.LF",
     "description": "Komplexní sada 100 otázek pokrývající diagnostiku, klasifikaci hypertenze a detailní farmakologii (ACEI, betablokátory, diuretika, BKK).",
-    "author": "Kamarád z 1. LF",
+    "author": {
+      "name": "Kamarád z 1. LF"
+    },
     "subject": "Farmakologie",
     "language": "cs",
     "tags": ["1. LF", "Interna", "Kardiologie", "Farmakologie", "Hypertenze"],

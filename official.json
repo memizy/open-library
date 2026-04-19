@@ -1,18 +1,38 @@
 [
   {
+    "$schema": "https://cdn.jsdelivr.net/gh/memizy/oqse-specification@main/schemas/oqse-header-v0.1.json",
     "id": "019c9536-b3cb-7cc4-b965-1fd79be59db7",
     "url": "https://cdn.jsdelivr.net/gh/memizy/set-anatomie-3d@main/data.oqse.json",
-    "title": "3D Anatomie",
-    "description": "Interaktivní studijní sada pro Memizy Ecosystem, která využívá reálné 3D modely k výuce anatomie lidského těla. Místo textových odpovědí musíte struktury najít a kliknout na ně přímo na prostorovém modelu.",
-    "author": "AnatomyTool.org",
+    "title": "Anatomie lebky - Identifikace kostí",
+    "description": "Procvič si znalost kostí lebky. U každé otázky najdi a klikni na správnou kost přímo na 3D modelu.",
     "subject": "Anatomie",
     "language": "cs",
     "tags": ["anatomie", "lebka", "craniologie", "medicína", "3d"],
     "createdAt": "2026-02-25T00:00:00Z",
     "updatedAt": "2026-02-25T00:00:00Z",
-    "estimatedTime": 120,
     "requirements": {
-      "features": ["markdown", "pin-on-model", "3d-models"]
+      "features": ["markdown"],
+      "itemProperties": ["explanation"]
+    }
+  },
+  {
+    "$schema": "https://cdn.jsdelivr.net/gh/memizy/oqse-specification@main/schemas/oqse-header-v0.1.json",
+    "id": "019da5a2-013c-7728-8a1f-fcf579822022",
+    "url": "https://cdn.jsdelivr.net/gh/memizy/set-memizy-oqse-test@main/data.oqse.json",
+    "title": "Memizy OQSE Test Set",
+    "description": "Official reference set for the Memizy ecosystem in OQSE format. Use these core items to safely test, build, and validate your applications and plugins.",
+    "author": {
+      "name": "Memizy Dev Team",
+      "role": "Creator"
+    },
+    "subject": "Memizy Testing",
+    "language": "en",
+    "tags": ["Test", "Developer", "SDK"],
+    "createdAt": "2026-04-19T10:00:00Z",
+    "updatedAt": "2026-04-19T12:05:51.037Z",
+    "requirements": {
+      "features": ["markdown"],
+      "itemProperties": ["hints", "explanation"]
     }
   }
 ]
