@@ -13,9 +13,9 @@ Welcome to the **Open Library**, the official community registry of study materi
 
 <br>
 
-[![Community Sets](https://img.shields.io/badge/JSON-Community-orange?style=for-the-badge&logo=json)](https://cdn.jsdelivr.net/gh/memizy/open-library@main/community.json)
 [![Official Sets](https://img.shields.io/badge/JSON-Official-blue?style=for-the-badge&logo=json)](https://cdn.jsdelivr.net/gh/memizy/open-library@main/official.json)
 [![Verified Sets](https://img.shields.io/badge/JSON-Verified-green?style=for-the-badge&logo=json)](https://cdn.jsdelivr.net/gh/memizy/open-library@main/verified.json)
+[![Community Sets](https://img.shields.io/badge/JSON-Community-orange?style=for-the-badge&logo=json)](https://cdn.jsdelivr.net/gh/memizy/open-library@main/community.json)
 
 </div>
 
