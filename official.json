@@ -18,7 +18,7 @@
   {
     "$schema": "https://cdn.jsdelivr.net/gh/memizy/oqse-specification@main/schemas/oqse-header-v0.1.json",
     "id": "019da5a2-013c-7728-8a1f-fcf579822022",
-    "url": "https://cdn.jsdelivr.net/gh/memizy/set-memizy-oqse-test@main/data.oqse.json",
+    "url": "https://cdn.jsdelivr.net/gh/memizy/set-test-suite@main/data.oqse.json",
     "title": "Memizy OQSE Test Set",
     "description": "Official reference set for the Memizy ecosystem in OQSE format. Use these core items to safely test, build, and validate your applications and plugins.",
     "author": {
